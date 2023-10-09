@@ -1,0 +1,46 @@
+.container {
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    animation: gradientBackground 1.5s linear infinite;
+}
+
+@keyframes gradientBackground {
+    0% {
+        background: linear-gradient(to bottom, #ff0000, #ff4d00);
+    }
+    10% {
+        background: linear-gradient(to bottom, #ff4d00, #ff9900);
+    }
+    20% {
+        background: linear-gradient(to bottom, #ff9900, #ffcc00);
+    }
+    30% {
+        background: linear-gradient(to bottom, #ffcc00, #fffb00);
+    }
+    40% {
+        background: linear-gradient(to bottom, #fffb00, #b5ff00);
+    }
+    50% {
+        background: linear-gradient(to bottom, #b5ff00, #4dff00);
+    }
+    60% {
+        background: linear-gradient(to bottom, #4dff00, #00ff1a);
+    }
+    70% {
+        background: linear-gradient(to bottom, #00ff1a, #00ff80);
+    }
+    80% {
+        background: linear-gradient(to bottom, #00ff80, #00ffe5);
+    }
+    90% {
+        background: linear-gradient(to bottom, #00ffe5, #00ecff);
+    }
+    100% {
+        background: linear-gradient(to bottom, #00ecff, #00aaff);
+    }
+}
